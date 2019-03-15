@@ -9,7 +9,7 @@ PROG = imd0030-lp1
 
 
 CC      = g++
-CFLAGS  = -Wall -I include
+CFLAGS  = -Wall -std=c++11 -I include
 DEBUG   = -g -O0
 
 LINKER   = g++
