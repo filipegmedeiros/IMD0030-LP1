@@ -25,9 +25,9 @@
 
 | **AULAS:**                                                                                                              | 
 | ---------------------                                                                                                   |
-| • [14/01/19 - Modularização](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/14jan/)             |
-| • [XX/01/19 - XXXX e XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/XXXX/) |
-| • [XX/01/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/XXXX/)           |
+| • [14/02/19 - Modularização](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/14fev/)             |
+| • [19/02/19 - Num. Amigos e ](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/19fev/) |
+| • [XX/02/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Aulas/XXXX/)           |
 
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -43,8 +43,8 @@
 
 **AULAS:**                                                                                                                | 
 | ---------------------                                                                                                   |
-| • [XX/01/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Aulas/XXXX)                |
-| • [XX/01/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Aulas/XXXX/)         |
+| • [XX/02/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Aulas/XXXX)                |
+| • [XX/02/19 - XXXX](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Aulas/XXXX/)         |
 
 
 
