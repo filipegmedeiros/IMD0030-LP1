@@ -1,4 +1,4 @@
-# IMD0012-ITP
+# IMD0012-LP1
 **Exercícios** da máteria  **e afins** de *LINGUAGEM DE PROGRAMAÇÃO I*  do ano **2019.1**
 
 
@@ -19,9 +19,9 @@
  
 | **ATIVIDADES AVALIATIVAS:**                                                                                             | 
 | ---------------------                                                                                                   |
-| • [Primeira Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Avaliativas/Atividade01)    |
-| • [Segunda Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Avaliativas/Atividade02)     |
-
+| • [Toad Race](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/toad_race)    |
+| • [company class](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/company)     |
+| • [company class](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/Atividade03)     |
 
 | **AULAS:**                                                                                                              | 
 | ---------------------                                                                                                   |
@@ -37,8 +37,8 @@
   
 | **ATIVIDADES AVALIATIVAS:**                                                                                             | 
 | ---------------------                                                                                                   |
-| • [Primeira Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Avaliativas/Atividade01)    | 
-| • [Segunda Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Avaliativas/Atividade02)     |
+| • [Primeira Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Atividades/Atividade01)    | 
+| • [Segunda Atividade](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade02/Atividades/Atividade02)     |
 
 
 **AULAS:**                                                                                                                | 
