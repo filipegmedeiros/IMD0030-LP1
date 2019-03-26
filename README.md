@@ -21,7 +21,7 @@
 | ---------------------                                                                                                   |
 | • [Toad Race](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/toad_race)    |
 | • [company class](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/company)     |
-| • [company class](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/Atividade03)     |
+| • [dice game](https://github.com/filipegmedeiros/IMD0030-LP1/tree/master/Unidade01/Atividades/dice_game)     |
 
 | **AULAS:**                                                                                                              | 
 | ---------------------                                                                                                   |
