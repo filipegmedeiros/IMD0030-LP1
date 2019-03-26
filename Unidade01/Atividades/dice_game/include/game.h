@@ -16,15 +16,6 @@
 class Game
 {
 private:	
-//! Messages
-	void Welcome();
-
-    // Messages of gets functions
-    void getRolledDices(std::vector<int>& );
-	void getWinner(Player& player);
-
-
-
 
 //! Randomize
 	std::random_device rd;
@@ -33,11 +24,11 @@ private:
 
 //! Iniciate Setup
 	int  setNumPlayers(); 
-	void SetPlayerNames(std::vector<Player>& );	
-	
+	void IniciatePlayers(std::vector<Player>& );	
+	void checkInGame(std::vector<Player>& );
 //! Play
-	void  rollDice(std::vector<int>&);
-
+	void rollDice(std::vector<int>&);
+	void checkIfLooser();
 //! Turn
 	int Turn(Player& );
 

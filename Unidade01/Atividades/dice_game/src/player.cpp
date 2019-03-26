@@ -17,7 +17,7 @@ Player::Player()
 
 //! New player constructor
 Player::Player(std::string _getName) 
-    : name(_getName), score(0) //? hmm
+    : name(_getName), score(0), inGame(0) //? hmm
 {
 }
 

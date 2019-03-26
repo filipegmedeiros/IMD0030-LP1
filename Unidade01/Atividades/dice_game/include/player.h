@@ -17,6 +17,7 @@ class Player
 private:
 	std::string name; // Name Player
 	int score; // Acumulated Score
+	int inGame;
 
 public:
 //! Constructors
@@ -25,10 +26,12 @@ public:
 
 //! sets	
 	void setScore(int ); // Add to Score
+	int  setInGame();
 
 //! gets
 	int getScore(); // Show score	
 	std::string getName(); // Show Name    
+	int getInGame();
 	
 
 };

@@ -16,15 +16,9 @@
 #include "player.h"
 #include "game.h"
 
-void Welcome()
-{
-	std::cout << "=================" << std::endl;
-	std::cout << "      WELCOME    " << std::endl;
-	std::cout << "=================" << std::endl;
-}
 
 void Game::rollDice(std::vector<int>& dicePool)
-        :rd(), gen(rd()), dis(1, 6)  //? não se usa assim?
+    
 {
 	for (unsigned int i = 0; i < dicePool.size(); i++)
 	{    
