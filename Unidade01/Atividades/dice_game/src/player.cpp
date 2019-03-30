@@ -28,6 +28,12 @@ int Player::getWinner() // Show Winner
 	return winner;
 }
 
+
+void Player::setWinner(bool value) // Show Winner
+{
+	 value = winner;
+}
+
 void Player::setInGame(bool value) //
 {
 	inGame = value;
@@ -43,4 +49,9 @@ void Player::setScore(int diceValue)
 int Player::getScore()
 {
 	return score;
+}
+
+bool Player::getInGame()
+{
+	return inGame;
 }

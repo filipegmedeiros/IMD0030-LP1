@@ -3,5 +3,5 @@
 #include "player.h"
 int main()
 {
-    howWinner();
+    gameLoop();
 }

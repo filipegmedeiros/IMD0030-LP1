@@ -27,10 +27,12 @@ public:
 	//! sets
 	void setScore(int);		// Add to Score
 	void setInGame(bool); // Remove to the Game
+	void setWinner(bool);
 
 	//! gets
 	int getScore(); // Show score
 	int getWinner();
+	bool getInGame();
 };
 
 #endif

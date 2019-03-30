@@ -24,11 +24,12 @@ class Game
 
   public:
 	//! Constructor
-	Game::Game();
+	Game();
 
 	//! Setters
 	void setDice();
-	void setWinValue(int);
+	void setPlayers(std::vector<Player>& players);	
+	void setWinValue(int );
 	void setNumberOfPlayers(int);
 
 	//! Getters
@@ -37,10 +38,12 @@ class Game
 	int getNumberOfPlayers();
 
 	//! Idk explain that above
+	int Turn(Player& ,int );
 	Player Play();
 
-	//! Player Winner
-	Player GetWinner(std::vector<Player>);
-};
 
-std::string howWinner();
+	void gameLoop();
+	//! Checkers Players 
+	Player whoWon(std::vector<Player> );
+	bool checkPlayers(std::vector<Player>, Player& , int );
+};
