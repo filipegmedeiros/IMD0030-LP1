@@ -15,24 +15,19 @@
 class Player 
 {
 private:
-	std::string name; // Name Player
-	int score; // Acumulated Score
-	int inGame;
+	int score = 0; // Acumulated Score
 
 public:
 //! Constructors
 	Player();
-	Player(std::string ); // New player constructor
 
-//! sets	
-	void setScore(int ); // Add to Score
-	int  setInGame();
+//! sets
+	void setScore(int score); // Add to Score
+	void  setInGame();
 
 //! gets
 	int getScore(); // Show score	
-	std::string getName(); // Show Name    
-	int getInGame();
-	
+ 
 
 };
 

@@ -15,22 +15,10 @@ Player::Player()
 {
 }
 
-//! New player constructor
-Player::Player(std::string _getName) 
-    : name(_getName), score(0), inGame(0) //? hmm
-{
-}
-
-// getName
-std::string Player::getName()
-{
-	return name;
-}
-
 // Add to Score
-void Player::setScore(int _DiceValue)
+void Player::setScore(int diceValue)
 {
-	score += _DiceValue;
+	score += diceValue;
 }
 
 // Show score
