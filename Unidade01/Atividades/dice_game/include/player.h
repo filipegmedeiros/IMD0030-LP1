@@ -7,28 +7,30 @@
 ? --------------------------------------------
 */
 
-#ifndef _Player_H_
-#define _Player_H_
+#ifndef _PLAYER_H_
+#define _PLAYER_H_
 
 #include <string>
 
-class Player 
+class Player
 {
 private:
-	int score = 0; // Acumulated Score
+	int score; // Acumulated Score
+	bool inGame;
+	bool winner;
 
 public:
-//! Constructors
+	//! Constructors
 	Player();
+	Player(int);
 
-//! sets
-	void setScore(int score); // Add to Score
-	void  setInGame();
+	//! sets
+	void setScore(int);		// Add to Score
+	void setInGame(bool); // Remove to the Game
 
-//! gets
-	int getScore(); // Show score	
- 
-
+	//! gets
+	int getScore(); // Show score
+	int getWinner();
 };
 
 #endif

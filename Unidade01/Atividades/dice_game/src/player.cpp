@@ -10,9 +10,27 @@
 #include <string>
 #include "player.h"
 
-
 Player::Player()
 {
+}
+
+//! New player constructor
+Player::Player(int N)
+	: score(0),
+	  inGame(true),
+	  winner(false)
+
+{
+}
+
+int Player::getWinner() // Show Winner
+{
+	return winner;
+}
+
+void Player::setInGame(bool value) //
+{
+	inGame = value;
 }
 
 // Add to Score

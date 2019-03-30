@@ -15,20 +15,32 @@
 
 class Game
 {
-private:	
+  private:
+	int winValue;
+	int numPlayers;
+	int turn;
 
-	int TargetValue; // N
-	int NumberOfPlayers;
 	int DiceSum;
- 
-public:
+
+  public:
+	//! Constructor
+	Game::Game();
+
+	//! Setters
 	void setDice();
-	void setTargetValue(int);
+	void setWinValue(int);
 	void setNumberOfPlayers(int);
+
+	//! Getters
 	int getDice();
 	int getTargetValue();
 	int getNumberOfPlayers();
-  Game(){};
+
+	//! Idk explain that above
+	Player Play();
+
+	//! Player Winner
+	Player GetWinner(std::vector<Player>);
 };
 
-void Play();
+std::string howWinner();
