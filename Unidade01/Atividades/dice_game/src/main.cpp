@@ -3,5 +3,9 @@
 #include "player.h"
 int main()
 {
-    gameLoop();
+    Game game;
+
+    game.GameLoop();
+
+    return 0;
 }

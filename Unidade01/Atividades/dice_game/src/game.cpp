@@ -1,9 +1,9 @@
 /*
 ? --------------------------------------------
-! file 		game.cpp
-! author 	Filipe Medeiros and Sara Beatriz.
-? news 	    
-@ date		26/03/2019
+! file      game.cpp
+! author    Filipe Medeiros and Sara Beatriz.
+? news       
+@ date      26/03/2019
 ? --------------------------------------------
 */
 
@@ -15,14 +15,6 @@
 
 #include "player.h"
 #include "game.h"
-
-Game::Game()
-    : winValue(0),
-      numPlayers(0),
-      turn(0)
-
-{
-}
 
 void Game::setDice() //! Solved
 {
@@ -60,9 +52,9 @@ int Game::getNumberOfPlayers()
 }
 
 //create vector of players
-void Game::setPlayers(std::vector<Player> &players)
+void Game::setPlayers(std::vector<Player> players)
 {
-    for (unsigned int i = 0; i < players.size(); i++)
+    for (unsigned int i = 1; i < players.size(); i++)
     {
         players[i] = Player(i);
     }
@@ -75,7 +67,7 @@ Player Game::whoWon(std::vector<Player> players)
     for (unsigned int i = 1; i < players.size(); i++)
     {
 
-        if (players[i].getInGame == true || players[i].getScore() > players[i - 1].getScore())
+        if (players[i].getInGame() == true || players[i].getScore() > players[i - 1].getScore())
         {
             winner = players[i];
         }
@@ -89,14 +81,14 @@ bool Game::checkPlayers(std::vector<Player> players, Player &playerTurn, int max
     bool firstWinner = true;
 
     //! tira o que tiver o valor acima do maximo
-    if (playerTurn.getScore > maxScore)
+    if (playerTurn.getScore() > maxScore)
     {
-        playerTurn.setInGame == false;
+        playerTurn.setInGame(false);
     }
 
-    if (playerTurn.getScore == maxScore)
+    if (playerTurn.getScore() == maxScore)
     {
-        playerTurn.setWinner == true;
+        playerTurn.setWinner(true);
         return firstWinner;
     }
 
@@ -106,7 +98,7 @@ bool Game::checkPlayers(std::vector<Player> players, Player &playerTurn, int max
     //! checka se só tem 1 no jogo.
     for (unsigned int i = 0; i < players.size(); i++)
     {
-        if (players[i].getInGame == true)
+        if (players[i].getInGame() == true)
         {
             count++;
             won = i;
@@ -114,7 +106,7 @@ bool Game::checkPlayers(std::vector<Player> players, Player &playerTurn, int max
     }
     if (count == 1)
     {
-        players[won].setWinner == true;
+        players[won].setWinner(true);
         return firstWinner;
     }
 }
@@ -131,7 +123,7 @@ int Game::Turn(Player &player, int i)
         Game::setDice();
         diceRoll = Game::getDice();
         player.setScore(diceRoll);
-        std::cout << "Player " << i << " rolled " << diceRoll << ". Total score is " << player.getScore() << std::endl;
+        std::cout << "Player " << i << " rolled " << diceRoll << ". Total score is " << player.getScore() << "\n" << std::endl;
     }
     else
     {
@@ -201,11 +193,10 @@ Player Game::Play()
     return winner;
 }
 
-void Game::gameLoop()
+void Game::GameLoop()
 {
-
+    bool quit = false;
+    unsigned int selection;
     Player winner;
-
     winner = Play();
-    std::cout << " is the winner with a score of " << winner.getScore() << std::endl;
 }

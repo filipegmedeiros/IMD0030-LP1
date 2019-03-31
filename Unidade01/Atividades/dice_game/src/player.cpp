@@ -10,18 +10,19 @@
 #include <string>
 #include "player.h"
 
-Player::Player()
+Player::Player( )
 {
 }
 
-//! New player constructor
-Player::Player(int N)
-	: score(0),
-	  inGame(true),
-	  winner(false)
+Player::Player(int N) 
+  	  :
+  score(0),
+  inGame(false),
+  winner(false)
 
 {
 }
+
 
 int Player::getWinner() // Show Winner
 {

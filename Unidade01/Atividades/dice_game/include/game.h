@@ -6,6 +6,10 @@
 @ date		26/03/2019
 ? --------------------------------------------
 */
+
+#ifndef _GAME_H_
+#define _GAME_H_
+
 #include <random>
 #include <iostream>
 #include <vector>
@@ -22,15 +26,11 @@ class Game
 
 	int DiceSum;
 
-  public:
-	//! Constructor
-	Game();
-
 	//! Setters
 	void setDice();
-	void setPlayers(std::vector<Player>& players);	
-	void setWinValue(int );
-	void setNumberOfPlayers(int);
+	void setPlayers(std::vector<Player> players);
+	void setWinValue(int a);
+	void setNumberOfPlayers(int b);
 
 	//! Getters
 	int getDice();
@@ -38,12 +38,14 @@ class Game
 	int getNumberOfPlayers();
 
 	//! Idk explain that above
-	int Turn(Player& ,int );
+	int Turn(Player &, int a);
 	Player Play();
 
+	//! Checkers Players
+	Player whoWon(std::vector<Player> a);
+	bool checkPlayers(std::vector<Player> a, Player &b, int c);
 
-	void gameLoop();
-	//! Checkers Players 
-	Player whoWon(std::vector<Player> );
-	bool checkPlayers(std::vector<Player>, Player& , int );
+  public:
+	void GameLoop();
 };
+#endif
